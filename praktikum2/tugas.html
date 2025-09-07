@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Layout Flexbox</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: linear-gradient(to right, #f0f8ff, #e6f7ff); /* gradasi warna */
+        }
+
+        .container {
+            display: flex;
+            margin: 20px auto;
+            max-width: 1000px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .sidebar {
+            width: 200px;
+            padding: 15px;
+            background: #f8f9fa;
+        }
+
+        .sidebar h3 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .sidebar ul li {
+            margin-bottom: 8px;
+        }
+
+        .sidebar ul li a {
+            text-decoration: none;
+            color: #6a5acd;
+        }
+
+        .content {
+            flex: 1;
+            padding: 20px;
+            background: #ffffff;
+        }
+
+        .content h2 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        .content img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        .sidebar-right {
+            width: 200px;
+            padding: 15px;
+            background: #f1f3f6;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Sidebar Kiri -->
+        <div class="sidebar">
+            <h3>Sidebar Satu</h3>
+            <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+                <li><a href="#">Link 4</a></li>
+                <li><a href="#">Link 5</a></li>
+            </ul>
+        </div>
+
+        <!-- Konten Utama -->
+        <div class="content">
+            <h2>Judul Artikel</h2>
+            <img src="https://picsum.photos/800/200" alt="Gambar Artikel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+
+        <!-- Sidebar Kanan -->
+        <div class="sidebar-right">
+            <h3>Sidebar Dua</h3>
+            <p>Duis ex mollit tempor. Ad anim reprehenderit in laborum dolor id aliqua dolore do fugiat nulla pariatur.</p>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.</p>
+        </div>
+    </div>
+
+</body>
+</html>
