@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <title>Gunung Butak - Jelajahi Alam</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: "Poppins", sans-serif;
+            background-color: #f8fff9;
+            margin: 0;
+            color: #2c2c2c;
+        }
+        
+        /*header*/
+        header {
+            background: linear-gradient(90deg, #2e8b57, #3cb371);
+            color: #fff;
+            text-align: center;
+            padding: 60px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            box-shadow: 0 4px 50px rgba(0, 0, 0, 0);
+            border-radius: 0 0 25px 25px; /* sudut bawah sedikit membulat */
+        }
+
+        .header-content {
+            max-width: 800px;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            font-weight: 700;
+            margin-bottom: 10px;
+            letter-spacing: 0.5px;
+            text-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+        }
+
+        header p {
+            font-size: 1.1em;
+            color: #e9ffe9;
+            margin-top: 0;
+            line-height: 1.6;
+        }
+
+
+        /*section*/
+        section {
+            max-width: 900px;
+            margin: 50px auto;
+            background: #fff;
+            border-radius: 18px;
+            padding: 40px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        section img {
+            width: 100%;
+            border-radius: 14px;
+            margin-bottom: 25px;
+        }
+
+        h2 {
+            color: #2e8b57;
+            margin-top: 0;
+        }
+
+        p {
+            line-height: 1.8;
+            text-align: justify;
+            margin: 12px 0;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin: 10px 0;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        .highlight {
+            background-color: #f0fff0;
+            border-left: 5px solid #2e8b57;
+            padding: 15px 20px;
+            border-radius: 10px;
+            margin: 25px 0;
+        }
+
+        form {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        input, select {
+            width: 70%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            font-size: 1em;
+            transition: 0.3s;
+        }
+
+        input:focus, select:focus {
+            border-color: #2e8b57;
+            outline: none;
+            box-shadow: 0 0 6px rgba(46,139,87,0.3);
+        }
+
+        button {
+            background-color: #2e8b57;
+            color: #fff;
+            border: none;
+            padding: 14px 32px;
+            border-radius: 30px;
+            cursor: pointer;
+            font-size: 1.05em;
+            transition: 0.3s;
+            box-shadow: 0 4px 10px rgba(46,139,87,0.25);
+        }
+
+        button:hover {
+            background-color: #236d46;
+            transform: translateY(-2px);
+        }
+
+        /*footer*/
+        footer {
+            text-align: center;
+            padding: 25px;
+            background-color: #2e8b57;
+            color: #fff;
+            margin-top: 60px;
+            font-size: 0.9em;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+    <div class="header-content">
+        <h1>Gunung Butak</h1>
+        <p>Menjelajahi Keindahan Alam di Perbatasan Malang dan Blitar</p>
+    </div>
+   </header>
+
+
+    <section>
+        <img src="images/buthak.jpg" alt="Gunung Butak">
+
+        <h2>Tentang Gunung Butak</h2>
+        <p>
+            Gunung Butak adalah gunung berapi tidak aktif dengan ketinggian sekitar <strong>2.868 mdpl</strong>. 
+            Terletak di perbatasan Kabupaten Malang dan Blitar, gunung ini menawarkan panorama alam yang menawan 
+            dengan udara sejuk, hutan pinus, dan padang ilalang yang luas.
+        </p>
+
+        <p>
+            Dari puncaknya, kamu bisa melihat Gunung Kawi, Panderman, dan bahkan Semeru di kejauhan.
+            Gunung Butak adalah destinasi sempurna untuk kamu yang ingin mendaki sambil menikmati ketenangan alam Jawa Timur.
+        </p>
+
+        <div class="highlight">
+            <h3>Fakta Menarik</h3>
+            <ul>
+                <li> Lokasi: Perbatasan Malang & Blitar, Jawa Timur</li>
+                <li> Ketinggian: 2.868 mdpl</li>
+                <li> Jalur populer: Panderman (Batu) & Sirah Kencong (Blitar)</li>
+                <li> Vegetasi: hutan pinus, sabana, kebun teh</li>
+                <li> Sumber air: tersedia di beberapa pos</li>
+            </ul>
+        </div>
+        <h2 style="margin-top: 35px;">Tips Pendakian Gunung Butak </h2>
+        <p>
+            Gunung Butak merupakan gunung yang cukup menantang meski tidak sepopuler Gunung Semeru atau Gunung Arjuno. 
+            Berikut adalah beberapa tips yang bisa membantu mempersiapkan pendakian:
+        </p>
+        <ul>
+            <li>
+                <strong>Persiapan Fisik:</strong> Jalur pendakian ke Gunung Butak cukup panjang dan terjal, terutama mendekati puncak. 
+                Persiapkan kondisi fisik dengan baik sebelum memulai pendakian, dan lakukan latihan fisik seperti jogging atau hiking di medan berbukit.
+            </li>
+            <li>
+                <strong>Bawa Perlengkapan yang Tepat:</strong> Karena kondisi cuaca di gunung bisa berubah-ubah, pastikan untuk membawa jaket tebal, tenda, sleeping bag, dan peralatan pendakian lainnya. 
+                Senter atau headlamp juga penting, terutama jika berencana melakukan pendakian malam.
+            </li>
+            <li>
+                <strong>Perbekalan:</strong> Bawa makanan dan minuman yang cukup untuk 1-2 hari. Meski ada beberapa sumber air di sepanjang jalur pendakian, 
+                terutama di jalur Sirah Kencong, sebaiknya tetap membawa air minum yang cukup.
+            </li>
+            <li>
+                <strong>Perhatikan Cuaca:</strong> Waktu terbaik untuk mendaki Gunung Butak adalah antara bulan April hingga Oktober saat musim kemarau. 
+                Hindari mendaki saat musim hujan karena jalur bisa sangat licin dan berbahaya.
+            </li>
+        </ul>
+
+        <p>
+            Bagi kamu yang mencari pengalaman mendaki santai dan alami, Gunung Butak menawarkan jalur yang ramah
+            untuk pendaki pemula maupun berpengalaman. Suasana sejuk dan panorama puncaknya akan membuatmu betah berlama-lama.
+        </p>
+
+        <h2 style="text-align:center; margin-top:40px;">Yuk, Jelajahi Gunung Butak! </h2>
+        <p style="text-align:center;">Isi nama dan pilih jalur untuk melihat panduan pendakianmu!</p>
+
+        <form method="POST" action="mendaki.php">
+            <input type="text" name="nama" placeholder="Masukkan nama kamu..." required><br>
+            <select name="jalur" required>
+                <option value="">-- Pilih Jalur Pendakian --</option>
+                <option value="Panderman (Batu)">Panderman (Batu)</option>
+                <option value="Sirah Kencong (Blitar)">Sirah Kencong (Blitar)</option>
+            </select><br>
+            <button type="submit"> Lihat Info Pendakian</button>
+        </form>
+    </section>
+
+    <footer>
+        &copy; 2025 Gunung Butak Explorer | Jelajahi Alam & Lestarikan Hutan
+    </footer>
+
+</body>
+</html>
